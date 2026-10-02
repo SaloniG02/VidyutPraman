@@ -1,0 +1,320 @@
+{
+  "model_type": "VidyutPraman-RandomForest-Ensemble-Prototype",
+  "status": "Trained on synthetic battery degradation benchmark",
+  "feature_indices": {
+    "chem_code": 0,
+    "rated_cap": 1,
+    "current_cap": 2,
+    "cycle_count": 3,
+    "rint": 4,
+    "v_sag": 5,
+    "temp_rise": 6,
+    "bms_soh": 7
+  },
+  "trees_soh": [
+    {
+      "feature_idx": 3,
+      "split_value": 1959.0,
+      "left_pred": 86.0923908523908,
+      "right_pred": 79.26405010438405
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 81.8,
+      "left_pred": 76.63597938144329,
+      "right_pred": 87.60947368421046
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1192,
+      "left_pred": 83.08407484407492,
+      "right_pred": 81.69104384133614
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 80.80571428571429,
+      "right_pred": 84.1263312368973
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 81.21887966804984,
+      "right_pred": 83.81778242677828
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.4,
+      "left_pred": 77.23782340862422,
+      "right_pred": 87.93564482029599
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.58,
+      "left_pred": 80.8713485477179,
+      "right_pred": 84.18481171548113
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.4,
+      "left_pred": 77.67072314049588,
+      "right_pred": 88.39367647058822
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2007.0,
+      "left_pred": 86.18524896265556,
+      "right_pred": 78.81619246861926
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1176,
+      "left_pred": 82.59409563409565,
+      "right_pred": 81.97112734864298
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1177,
+      "left_pred": 83.52979381443306,
+      "right_pred": 81.45324210526309
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2013.0,
+      "left_pred": 85.93752598752599,
+      "right_pred": 78.86027139874746
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.56,
+      "left_pred": 80.79504149377594,
+      "right_pred": 84.19960251046011
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.1,
+      "left_pred": 76.89674180327866,
+      "right_pred": 87.94315677966094
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 6.1,
+      "left_pred": 82.68454356846468,
+      "right_pred": 82.26135983263593
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.82,
+      "left_pred": 81.22733887733882,
+      "right_pred": 84.08951983298545
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2136.0,
+      "left_pred": 86.10692307692304,
+      "right_pred": 78.55974947807935
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 80.95906639004146,
+      "right_pred": 83.22110878661084
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.95,
+      "left_pred": 82.89209543568465,
+      "right_pred": 82.27125523012556
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2029.0,
+      "left_pred": 85.86730290456424,
+      "right_pred": 78.40069037656897
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.96,
+      "left_pred": 82.50968879668041,
+      "right_pred": 82.49830543933062
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1198,
+      "left_pred": 82.82349896480332,
+      "right_pred": 81.72316561844865
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.93,
+      "left_pred": 82.86683229813669,
+      "right_pred": 81.83819706498961
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 81.015793814433,
+      "right_pred": 84.19229473684209
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 1963.0,
+      "left_pred": 86.0611018711017,
+      "right_pred": 78.98453027139874
+    }
+  ],
+  "trees_rul": [
+    {
+      "feature_idx": 3,
+      "split_value": 1959.0,
+      "left_pred": 1874.7525987525987,
+      "right_pred": 2343.5824634655532
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 81.8,
+      "left_pred": 1203.181443298969,
+      "right_pred": 2782.623157894737
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1192,
+      "left_pred": 3052.904365904366,
+      "right_pred": 1138.4759916492694
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 1722.2422360248447,
+      "right_pred": 2276.461215932914
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 1936.707468879668,
+      "right_pred": 2406.458158995816
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.4,
+      "left_pred": 1137.5133470225874,
+      "right_pred": 3021.830866807611
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.58,
+      "left_pred": 1924.240663900415,
+      "right_pred": 2517.186192468619
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.4,
+      "left_pred": 1248.4814049586778,
+      "right_pred": 2978.3466386554624
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2007.0,
+      "left_pred": 1909.7157676348547,
+      "right_pred": 2297.5188284518827
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1176,
+      "left_pred": 3112.2120582120583,
+      "right_pred": 1124.2881002087684
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1177,
+      "left_pred": 3175.760824742268,
+      "right_pred": 1056.7747368421053
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2013.0,
+      "left_pred": 1875.6424116424116,
+      "right_pred": 2261.338204592902
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.56,
+      "left_pred": 1855.6825726141078,
+      "right_pred": 2408.600418410042
+    },
+    {
+      "feature_idx": 7,
+      "split_value": 82.1,
+      "left_pred": 1139.5737704918033,
+      "right_pred": 3085.353813559322
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 6.1,
+      "left_pred": 2843.852697095436,
+      "right_pred": 1136.7259414225941
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.82,
+      "left_pred": 1913.6548856548857,
+      "right_pred": 2413.820459290188
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2136.0,
+      "left_pred": 1955.902286902287,
+      "right_pred": 2248.9206680584552
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 1812.948132780083,
+      "right_pred": 2336.6338912133892
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.95,
+      "left_pred": 2940.294605809129,
+      "right_pred": 1162.8451882845188
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 2029.0,
+      "left_pred": 1869.6659751037344,
+      "right_pred": 2106.928870292887
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.96,
+      "left_pred": 2930.728215767635,
+      "right_pred": 1159.378661087866
+    },
+    {
+      "feature_idx": 4,
+      "split_value": 0.1198,
+      "left_pred": 3036.3561076604556,
+      "right_pred": 1116.32285115304
+    },
+    {
+      "feature_idx": 5,
+      "split_value": 5.93,
+      "left_pred": 2992.3105590062114,
+      "right_pred": 1202.5786163522012
+    },
+    {
+      "feature_idx": 2,
+      "split_value": 38.83,
+      "left_pred": 1920.8680412371134,
+      "right_pred": 2346.593684210526
+    },
+    {
+      "feature_idx": 3,
+      "split_value": 1963.0,
+      "left_pred": 1868.5135135135135,
+      "right_pred": 2303.7181628392486
+    }
+  ],
+  "benchmark_mae_soh": 5.28,
+  "disclaimer": "Model trained on synthetic illustrative dataset. Not calibrated against physical cell laboratory degradation tests."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "VidyutPraman",
+  "description": "Digital battery passport and circular-economy lifecycle platform for Indian electric fleets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
